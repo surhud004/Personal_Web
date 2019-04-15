@@ -1,0 +1,49 @@
+#indexpage {
+	font-family: 'Source Code Pro', monospace;
+	background: url(../assets/workspace.png) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: #ffffff;
+}
+
+/*MAIN CONTENT*/
+#bkg_img {
+    width: 640px;
+    height: 480px;
+}
+#main-content {
+    width: 640px;
+    height: 480px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.insideimg {
+    position: absolute;
+    top: 56px;
+    left: 1px;
+    color: #ffffff;
+}
+
+@keyframes blink {
+    to {opacity: .0;}
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+/*END OF MAIN CONTENT*/
+
+/*FOOTER*/
+footer {
+	padding: 10px;
+	color: #ffffff;
+	position:fixed;
+ 	bottom:0;
+ 	left:0;
+}
+/*END OF FOOTER*/

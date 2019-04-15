@@ -1,0 +1,36 @@
+body {
+	font-family: 'Source Code Pro', monospace;
+	background-color: #222222;
+}
+
+/*MAIN CONTENT*/
+#main-content {
+	border-top: 1px solid #02C39A;
+    width: 640px;
+    height: 480px;
+}
+#desc-div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#quote-Carousel {
+	height: 360px;
+}
+.carousel-inner .quotes {
+	text-align: center;
+	font-style: italic;
+	font-size: 2vw;
+	padding: 100px;
+}
+/*END OF MAIN CONTENT*/
+
+/*FOOTER*/
+footer {
+    background-color: #05668D;
+	padding: 10px;
+	color: #02C39A;
+	position:fixed;
+ 	bottom:0;
+ 	left:0;
+}
+/*END OF FOOTER*/
